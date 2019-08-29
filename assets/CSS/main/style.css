@@ -1,5 +1,6 @@
 * {
     width: auto;
+    font-family: 'PT Sans', sans-serif;
 }
 .clearfix::after {
     clear: both;
@@ -12,10 +13,10 @@ body {
 header {
     background-color: #F0FFFF;
     position: relative;
-    height: 50px;
+    height: 48px;
     margin-bottom: 40px;
     border-style: solid none;
-    border-width: .8px;
+    border-width: 1px;
     border-color: #C0C0C0; 
 }
 #name, .links, section {
@@ -27,12 +28,15 @@ header {
     color: #FFFAFA;
     font-family: 'Vidaloka', serif;
     font-size: 24px;
-    height: 42px;
+    height: 38px;
     width: 200px;
     text-align: center;
     padding-top: 10px;
     margin: 0;
     left: 240px;
+    border-style: solid none;
+    border-width: 1px;
+    border-color: #C0C0C0; 
 }
 .links {
     text-align: right;
