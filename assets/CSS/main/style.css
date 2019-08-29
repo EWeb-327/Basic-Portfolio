@@ -1,6 +1,6 @@
 * {
     width: auto;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .clearfix::after {
     clear: both;
@@ -36,6 +36,7 @@ header {
     bottom: 18px;
     left: 290px;
     font-size: 12px;
+    color:	#708090;
 }
 a {
     text-decoration: none;
@@ -47,4 +48,45 @@ section {
     border-color: #C0C0C0; 
     position: absolute;
     left: 300px;
+    padding: 20px;
+}
+h1 {
+    border-style: none none solid;
+    border-width: 3px;
+    border-color: #C0C0C0;
+    padding: 0px 0px 10px 10px;
+}
+#floaters {
+    margin: 10px 0px;
+}
+
+#image {
+    float: left;
+    margin-right: 10px;
+}
+p {
+    color: 	#708090;
+}
+#p1 {
+    float: left;
+    width: 780px;
+    margin: 0;
+}
+#p2 {
+    text-align: left;
+    width: 940px;
+}
+ul {
+    padding-left: 15px;
+}
+li {
+    color: #708090;
+}
+footer {
+    background-color: #4e5965;
+    border-style: solid none none;
+    border-color: #20B2AA;
+    border-width: 5px;
+    height: 35px;
+    margin-top: 40px;
 }
