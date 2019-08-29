@@ -28,7 +28,7 @@ header {
     text-align: center;
     padding-top: 15px;
     margin: 0;
-    left: 300px;
+    left: 240px;
 }
 .links {
     text-align: right;
@@ -47,14 +47,15 @@ section {
     border-width: .8px;
     border-color: #C0C0C0; 
     position: absolute;
-    left: 300px;
+    left: 250px;
     padding: 20px;
 }
 h1 {
     border-style: none none solid;
     border-width: 3px;
     border-color: #C0C0C0;
-    padding: 0px 0px 10px 10px;
+    padding: 0px 0px 15px 10px;
+    margin-top: 0;
 }
 #floaters {
     margin: 10px 0px;
@@ -88,5 +89,8 @@ footer {
     border-color: #20B2AA;
     border-width: 5px;
     height: 35px;
+    width: 100%;
     margin-top: 40px;
+    position: fixed;
+    bottom: 0;
 }
