@@ -98,14 +98,16 @@ li {
 footer {
     position: fixed;
     bottom: 0;
+    left: 0;
     text-align: center;
     background-color: #4e5965;
     border-style: solid none none;
     border-color: #20B2AA;
     border-width: 5px;
-    height: 35px;
+    height: 20px;
     width: 100%;
-    margin-top: 40px;
+    margin-top: 40px 0px 0px;
     font-size: 10px;
     color: #FFFAFA;
+    padding-top: 25px;
 }
