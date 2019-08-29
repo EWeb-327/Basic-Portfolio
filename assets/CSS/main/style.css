@@ -7,6 +7,9 @@
     content: "";
     display: block;
 }
+body {
+    position: relative;
+}
 header {
     background-color: #F0FFFF;
     position: relative;
@@ -85,6 +88,8 @@ li {
     color: #708090;
 }
 footer {
+    position: fixed;
+    bottom: 0;
     background-color: #4e5965;
     border-style: solid none none;
     border-color: #20B2AA;
@@ -92,6 +97,4 @@ footer {
     height: 35px;
     width: 100%;
     margin-top: 40px;
-    position: fixed;
-    bottom: 0;
 }
