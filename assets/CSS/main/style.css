@@ -1,0 +1,36 @@
+* {
+    width: 960px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.clearfix::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+header {
+    background-color: #F0FFFF;
+    position: relative;
+    height: 50px;
+}
+#name {
+    position: absolute;
+    background-color: #20B2AA;
+    color: #FFFAFA;
+    height: 35px;
+    width: 150px;
+    text-align: center;
+    padding-top: 15px;
+    margin: 0;
+}
+.links {
+    text-align: right;
+    position: absolute;
+    bottom: 18px;
+    font-size: 12px;
+}
+a {
+    text-decoration: none;
+}
+section {
+    background-color: #F0FFFF; 
+}
