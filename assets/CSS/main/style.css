@@ -42,9 +42,9 @@ header {
 .links {
     text-align: right;
     position: absolute;
-    bottom: 18px;
+    bottom: 10px;
     left: 290px;
-    font-size: 12px;
+    font-size: 20px;
     color:	#708090;
 }
 a {

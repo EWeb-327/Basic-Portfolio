@@ -42,9 +42,9 @@ header {
 .links {
     text-align: right;
     position: absolute;
-    bottom: 18px;
+    bottom: 10px;
     left: 290px;
-    font-size: 12px;
+    font-size: 20px;
     color:	#708090;
 }
 a {
@@ -62,6 +62,7 @@ a {
     padding: 20px;
     text-align: justify;
     line-height: 160%;
+    flex: 1;
 }
 h1 {
     border-style: none none solid;
@@ -104,17 +105,17 @@ img {
 .port5 {
     position: absolute;
     left: 100px;
-    top: 800px;
+    top: 780px;
 }
 .plinks {
     background-color: #20B2AA;
     background-blend-mode: hue;
-    color: #C0C0C0;
-    font-size: 20px;
+    color: #1a1a1a;
+    font-size: 24px;
     width: 300px;
     height: 40px;
     border: solid 2px #708090;
-    padding: 20px 0px 0px;
+    padding: 15px 0px 0px;
 }
 #HM {
     position: absolute;

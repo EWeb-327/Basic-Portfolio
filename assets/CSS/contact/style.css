@@ -30,7 +30,7 @@ header {
     text-align: center;
     padding-top: 10px;
     margin: 0;
-    left: 220px;
+    left: 240px;
     border-style: solid none;
     border-width: 1px;
     border-color: #C0C0C0; 
@@ -38,9 +38,9 @@ header {
 .links {
     text-align: right;
     position: absolute;
-    bottom: 18px;
-    left: 260px;
-    font-size: 12px;
+    bottom: 10px;
+    left: 290px;
+    font-size: 20px;
     color:	#708090;
 }
 a {
