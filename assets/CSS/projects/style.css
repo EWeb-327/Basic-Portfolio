@@ -1,0 +1,149 @@
+* {
+    width: auto;
+    font-family: 'PT Sans', sans-serif;
+}
+.clearfix::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+body {
+    position: relative;
+}
+header {
+    background-color: #F0FFFF;
+    position: relative;
+    height: 48px;
+    margin-bottom: 40px;
+    border-style: solid none;
+    border-width: 1px;
+    border-color: #C0C0C0; 
+}
+#name, .links, section {
+    width: 960px;
+}
+#name {
+    position: absolute;
+    background-color: #20B2AA;
+    color: #FFFAFA;
+    font-family: 'Vidaloka', serif;
+    font-size: 24px;
+    height: 38px;
+    width: 200px;
+    text-align: center;
+    padding-top: 10px;
+    margin: 0;
+    left: 240px;
+    border-style: solid none;
+    border-width: 1px;
+    border-color: #C0C0C0; 
+}
+.links {
+    text-align: right;
+    position: absolute;
+    bottom: 18px;
+    left: 290px;
+    font-size: 12px;
+    color:	#708090;
+}
+a {
+    text-decoration: none;
+    color: #20B2AA;
+}
+#main {
+    background-color: #F0FFFF;
+    border-style: solid;
+    border-width: .8px;
+    border-color: #C0C0C0; 
+    position: absolute;
+    left: 250px;
+    padding: 20px;
+    text-align: justify;
+    line-height: 160%;
+}
+h1 {
+    border-style: none none solid;
+    border-width: 3px;
+    border-color: #C0C0C0;
+    color: #20B2AA;
+    padding: 0px 0px 15px 10px;
+    margin-top: 0;
+    font-family: 'Vidaloka', serif;
+}
+.box {
+    position: relative;
+}
+img {
+    height:300px;
+    width: 300px;
+    border: solid 2px #708090;
+}
+.port1 {
+    position: absolute;
+    left: 100px;
+    top: 20px;
+    text-align: center;
+}
+.port2 {
+    position: absolute;
+    right: 100px;
+    top: 20px;
+}
+.port3 {
+    position: absolute;
+    left: 100px;
+    top: 400px;
+}
+.port4 {
+    position: absolute;
+    right: 100px;
+    top: 400px;
+}
+.port5 {
+    position: absolute;
+    left: 100px;
+    top: 800px;
+}
+.plinks {
+    background-color: #20B2AA;
+    background-blend-mode: hue;
+    color: #C0C0C0;
+    font-size: 20px;
+    width: 300px;
+    height: 40px;
+    border: solid 2px #708090;
+    padding: 20px 0px 0px;
+}
+#HM {
+    position: absolute;
+    top:125px;
+    left: 0px;
+    text-align: center;
+}
+#RPG {
+    position: absolute;
+    top:125px;
+    right: 0px;
+    text-align: center;
+}
+#TG {
+    position: absolute;
+    top:125px;
+    left: 0px;
+    text-align: center;
+}
+#RIW {
+    position: absolute;
+    top:125px;
+    right: 0px;
+    text-align: center;
+}
+#RPS {
+    position: absolute;
+    top:125px;
+    left: 0px;
+    text-align: center;
+}
+
+
+
