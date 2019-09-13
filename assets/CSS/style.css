@@ -1,0 +1,196 @@
+* {
+ font-family:'PT Sans', sans-serif;
+}
+html, body {
+    position: relative;
+    background-color: #fafaf9;
+    height: 100%;
+    margin: 0;
+}
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -50px;
+}
+.clearfix::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+header {
+    background-color: #e6ffff;
+    height: 50px;
+}
+#name {
+    background-color: #00cccc;
+    height: 50px;
+    width: 10%;
+    float: left;
+    margin-left:12.5%;
+    color: #FFFAFA;
+    font-family: 'Vidaloka', serif;
+    font-size: 24px;
+    line-height: 2;
+    padding: 0 10px;
+}
+.links {
+    float: right;
+    margin-right: 12.5%;
+    line-height: 3;
+}
+a {
+    text-decoration: none;
+    color: #20B2AA;
+}
+#main-section, #main {
+    text-align: justify;
+    background-color: #F0FFFF;
+    width: 65%;
+    margin: 3% auto 10%;
+    padding: 1%;
+    border: solid 1px #696969;
+}
+#main {
+    height: 1090px;
+}
+h1 {
+    font-family: 'Vidaloka', serif;
+    padding: 0 0 2% 2%;
+    color: #696969;
+    border-bottom: solid 2px #696969;
+    width: 95%;
+}
+#image {
+    float: left;
+    margin: 0 2% 2%;
+}
+p {
+    margin: 0 1%;
+}
+#blue, #pink, #orange, #teal, #yellow {
+    height:300px;
+    width: 300px;
+    border: solid 2px #708090;
+}
+.port1 {
+    position: absolute;
+    left: 350px;
+    text-align: center;
+}
+.port2 {
+    position: absolute;
+    right: 350px;
+}
+.port3 {
+    position: absolute;
+    left: 350px;
+    top: 550px;
+}
+.port4 {
+    position: absolute;
+    right: 350px;
+    top: 550px;
+}
+.port5 {
+    position: absolute;
+    left: 350px;
+    top: 875px;
+}
+.plinks {
+    background-color: #20B2AA;
+    background-blend-mode: hue;
+    color: #1a1a1a;
+    font-size: 24px;
+    width: 300px;
+    height: 40px;
+    border: solid 2px #708090;
+    padding: 15px 0px 0px;
+}
+.plinks {
+    position: absolute;
+}
+#HM {
+    position: absolute;
+    top:125px;
+    left: 0px;
+    text-align: center;
+}
+#RPG {
+    position: absolute;
+    top:125px;
+    right: 0px;
+    text-align: center;
+}
+#TG {
+    position: absolute;
+    top:125px;
+    left: 0px;
+    text-align: center;
+}
+#RIW {
+    position: absolute;
+    top:125px;
+    right: 0px;
+    text-align: center;
+}
+#RPS {
+    position: absolute;
+    top:125px;
+    left: 0px;
+    text-align: center;
+}
+h2 {
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+#contact, #email {
+    resize: none;
+}
+textarea {
+    width: 95%;
+    height: 25px;
+    font-size: 14px;
+    padding:5px 5px 0px;
+}
+#message {
+    height: 100px;
+}
+button {
+    background-color: #20B2AA;
+    color: #FFFAFA;
+    height: 25px;
+    width: 75px;
+}
+.push {
+  height: 10px;
+}
+footer {
+    background-color: #696969;
+    height: 50px;
+    border-top: solid 2px #00cccc;
+    text-align: center;
+    font-size: 12px;
+    color: #F0FFFF;
+    line-height: 3.5;
+}
+@media screen and (max-width: 1200px){
+    #name{
+        width: 12%;
+    }
+}
+@media screen and (max-width: 992px){
+    #name{
+        width: 15%;
+    }
+}
+@media screen and (max-width: 768px){
+    #name{
+        width: 18%;
+    }
+}
+@media screen and (max-width: 640px){
+    #name{
+        width: 22%;
+    }
+}
