@@ -83,17 +83,17 @@ p {
 .port3 {
     position: absolute;
     left: 350px;
-    top: 550px;
+    top: 525px;
 }
 .port4 {
     position: absolute;
     right: 350px;
-    top: 550px;
+    top: 525px;
 }
 .port5 {
     position: absolute;
     left: 350px;
-    top: 875px;
+    top: 855px;
 }
 .plinks {
     background-color: #20B2AA;
@@ -178,11 +178,30 @@ footer {
     #name{
         width: 12%;
     }
+    .port1, .port3, .port5 {
+        left: 250px;
+    }
+    .port3, .port4 {
+        top: 520px
+    }
+    .port2, .port4 {
+        right: 250px
+    }
 }
 @media screen and (max-width: 992px){
     #name{
         width: 15%;
     }
+    .port1, .port3, .port5 {
+        left: 180px;
+    }
+    .port3, .port4 {
+        top: 515px
+    }
+    .port2, .port4 {
+        right: 180px
+    }
+
 }
 @media screen and (max-width: 768px){
     #name{
