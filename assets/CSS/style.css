@@ -66,7 +66,7 @@ h1 {
 p {
     margin: 0 1%;
 }
-#blue, #pink, #orange, #teal, #yellow {
+#blue, #pink, #orange, #teal, #yellow, #coral {
     height:300px;
     width: 300px;
     border: solid 2px #708090;
@@ -93,6 +93,11 @@ p {
 .port5 {
     position: absolute;
     left: 350px;
+    top: 855px;
+}
+.port6 {
+    position: absolute;
+    right: 350px;
     top: 855px;
 }
 .plinks {
@@ -133,6 +138,12 @@ p {
     text-align: center;
 }
 #RPS {
+    position: absolute;
+    top:125px;
+    left: 0px;
+    text-align: center;
+}
+#API {
     position: absolute;
     top:125px;
     left: 0px;
@@ -184,7 +195,7 @@ footer {
     .port3, .port4 {
         top: 520px
     }
-    .port2, .port4 {
+    .port2, .port4, .port6 {
         right: 250px
     }
 }
@@ -198,7 +209,7 @@ footer {
     .port3, .port4 {
         top: 515px
     }
-    .port2, .port4 {
+    .port2, .port4, .port6{
         right: 180px
     }
 
